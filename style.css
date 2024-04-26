@@ -251,24 +251,31 @@ section {
 .arrow {
     position: absolute;
     right: 5rem;
-    bottom: -40rem;
+    bottom: -52rem;
 }
 .arrow2 {
     position: absolute;
     right: 5rem;
-    bottom: -82.5rem;
+    bottom: -111.5rem;
+}
+.arrow3 {
+    position: absolute;
+    right: 5rem;
+    bottom: -165.5rem;
 }
 
 .details-container {
     padding-top: 1.2rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    flex: 1;
+    max-width: 500px;
 }
 
 .section-container {
@@ -280,6 +287,12 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+#experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .experience-sub-title {
@@ -302,20 +315,105 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
     justify-content: space-around;
+    max-width: 500px;
 
 }
 
 article {
     display: flex;
-    width: 10rem;
+    width: 7rem;
     justify-content: space-around;
     gap: 0.5rem;
 }
 
 article .icon {
     cursor: default;
+}
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+
+}
+
+.project-img {
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+    height: 90%;
+    transition: transform 0.3s ease;
+}
+.project-img:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+.project-title {
+    margin: 1rem;
+    color: black;
+
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.contact-info-container p {
+    font-size: larger;
+}
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+footer p {
+    text-align: center;
+}
+.arrow4 {
+    position: absolute;
+    right: 5rem;
+    top: 281rem;
+}
+.max {
+    max-width: 400px;
+    text-align: center;
+}
+.text-container {
+    display: flex;
+    justify-content: center;
 }
 
 
